@@ -43,10 +43,6 @@ Re-Implements the Paper "Flow Matching for Neural Posterior Inference With Simul
   - `load_baseline_model`, `infer_theta_hat` and `evaluate_baseline_with_sim` evaluate the baseline with the simulator.
 - **Eval.py**
   - `RefinementEvaluator` compares baseline and refinement on a dataset.
-- **main.py**
-  - Script demonstrating simulator driven evaluation for a single observation.
-- **calculate_cost_whitebox.py**, **__init__.py**
-  - Empty placeholder files.
 
 ### blackbox
 - **baseline_interface.py**
@@ -59,8 +55,7 @@ Re-Implements the Paper "Flow Matching for Neural Posterior Inference With Simul
   - `BlackBoxTrainer` performs training of encoder and refinement network.
 - **evaluate_blackbox.py**
   - `evaluate_blackbox` visualises baseline versus blackbox refinement.
-- **__init__.py**
-  - Empty module initialiser.
+
 
 ### Root scripts
 - **show_it_works.py** trains all components with short schedules.
